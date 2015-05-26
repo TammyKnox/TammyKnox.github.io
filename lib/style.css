@@ -111,7 +111,7 @@ li img{
     height: 50%;
   }
   header{
-    font-size: 28px
+    font-size: 28px;
   }
   p{
     font-size: 14px;
@@ -152,5 +152,4 @@ li img{
     height: 28px;
     padding: 0;
   }
-
 }
