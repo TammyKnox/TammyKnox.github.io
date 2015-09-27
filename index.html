@@ -1,41 +1,165 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
- 	<title>Tammy Knox</title>
- 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- 	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=no">
- 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
- 	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
- 	<link href='http://fonts.googleapis.com/css?family=Quicksand:700,400' rel='stylesheet' type='text/css'>
- 	<link rel='stylesheet' type='text/css' media='screen' href='lib/main.css'>
- </head>
+<title>Tammy Knox | Web Developer</title>
+
+<!--Meta Data
+===================================================================================-->
+<meta charset="UTF-8">
+<meta name="description" content="Website Development for Small Businesses in northwest indiana">
+<meta name="keywords" content="Freelance, website development, web developer, nwi, northwest, indiana, chicago">
+<meta name="author" content="Tammy-Elizabeth Knox">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-</body>
+<!--CSS StyleSheets
+========================================================================================-->
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/font-awesome/font-mfizz/font-mfizz.css">
+<link rel="stylesheet" href="assets/font-awesome/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-	<div id="language">
- 		<button id = "jp" onclick="languageChange(this.id)" >日本語</button>
- 		<button id = "es" onclick="languageChange(this.id)" >Español</button>
- 		<button id = "en" onclick="languageChange(this.id)" >English</button>
-	</div>
-	<div id="content">
- 		<header id="langHeader">Coming Soon!</header>
 
- 		<section id = "message">
- 			<p id="langMessage">My name is Tammy. This is a portfolio of my web development work but it is currently under construction. However, you can find me through my social media:</p>
- 		</section>
+	<!--[if IE 6]><link rel="stylesheet" href="http://mysite.com/path/to/ie6.css" type="text/css" media="screen, projection"><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" href="http://mysite.com/path/to/ie7.css" type="text/css" media="screen, projection"><![endif]-->
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<![endif]-->
 
- 	
- 		<div id="socialMedia">
- 			<ul>
- 				<li><a href="https://twitter.com/TammyElizabethK"><img src="pictures/twitter.jpg"></a></li>
- 				<li><a href="#"><img src="pictures/tumblr.jpg"></a></li>
- 				<li><a href="https://github.com/TammyKnox"><img src="pictures/github.jpg"></a></li>
- 				<li><a href="https://www.linkedin.com/pub/tammy-knox/90/640/93b"><img src="pictures/linkedin.jpg"></a></li>
+<!--Scripts
+========================================================================================-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="assets/scripts/script.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
 
- 			</ul>
-	 	</div>
-	</div>
-	<script type="text/javascript" src="lib/index.js"></script>
+<!--Main Content
+========================================================================================-->
+<body>
+	<header>
+		<nav class="container-fluid nav-container">
+		<div class="row">
+			<div class="col-md-6">
+				<p><a href="elizaknox.me">Tammy Knox | Web Developer</a></p>
+			</div>
+			<div class="col-md-6">
+				<ul>
+					<li class="one"><a href="#">Home</a></li>
+					<li class="two"><a href="#">About</a></li>
+					<li class="three"><a href="#">Services</a></li>
+					<li class="four"><a href="#">Portfolio</a></li>
+					<li class="six"><a href="#">Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+		</nav>
+		<section class="elevator-pitch container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Hello!</h1>
+					<p>I'm Tammy Knox and I'm a web developer. I build custom websites and web apps. Check out some of the services I offer below.</p>
+					<button href="#" id="btn" class="btn animated rubberBand">Take a Look  <i class="fa fa-chevron-right fa-sm responsive"></i></button>
+				</div>
+			</div>
+		</section>
+	</header>
+
+<!--=================== Services Section =====================-->
+	<section class="container-fluid white services">
+		<h2>My Services</h2>
+		<div class="row">
+			<div class="col-md-4 col-sm-4 front-end">
+				<i class="fa fa-html5 fa-lg responsive"></i>
+				<i class="fa fa-css3 fa-lg responsive"></i>
+				<i class="icon-javascript responsive"></i>
+				<h3>HTML, CSS, and JavaScript</h3>
+				<p>I write custom code so that you can be sure that your website is unique down to last line of code.</p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-desktop fa-lg responsive"></i>
+				<i class="fa fa-mobile fa-lg responsive"></i>
+				<i class="fa fa-tablet fa-lg responsive"></i>
+				<h3>Responsive</h3>
+				<p>Every website I create will always be responsive and optimized for easy access anywhere.</p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-user fa-lg responsive"></i>
+				<h3>Free Consultations</h3>
+				<p>Not sure of what you're looking for? I can help. Contact me for a free consultation.</p>
+			</div>
+		</div>
+	</section>
+
+<!--====================== Portfolio Section ===================-->
+	<section class="container-fluid lavendar portfolio">
+		<h2>My Work</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="#"><img src="assets/images/coming_soon_landing_page.png" width=300 height=200 alt="hero landing page"></a>
+				<h4>Landing Pages</h4>
+			</div>
+			<div class="col-md-6">
+				<a href="#"><img src="assets/images/coming_soon_mobile.png" width=100 height=200 alt="mobile hero landing page"></a>
+				<h4>Mobile</h4>
+			</div>
+		</div>
+	</section>
+
+<!--==================== Nonprofit Section =================-->
+	<section class="container-fluid white nonprofit">
+		
+		<div>
+			<p>I enjoy giving back to different communities through nonprofit organizations. Feel free to contact me if you're a nonprofit.</p>
+		</div>
+			<!--
+			<div class="gallery">
+				<h3>Organizations I Support</h3>
+				<a href="http://www.freecodecamp.com"><img src="assets/images/freecodecamp.jpg"  height=100 width=100 alt="Free Code Camp"></a>
+				<a href="#"><img src="assets/images/freecodecamp.jpg" height=100 width=100 alt="Free Code Camp"></a>
+				<a href="#"><img src="assets/images/freecodecamp.jpg" height=100 width=100 alt="Free Code Camp"></a>
+			</div>
+		-->
+	</section>
+
+<!--===================== Contact Form ==================-->
+	<section class="container-fluid lavendar contact">
+		<h2>Contact Me</h2>
+		<div class="row">
+			<div class="col-md-12">
+				<p><a href="mailto:tammyknox@elizaknox.me">tammyknox@elizaknox.me</a></p>
+			</div>
+		</div>
+	</section>
+
+<!--==================== Footer Section ================-->
+	<footer class="container-fluid dark about">
+		<section>
+			<section>
+				<ul>
+					<li class="one"><a href="#">Home</a></li>
+					<li class="two"><a href="#">About</a></li>
+					<li class="three"><a href="#">Services</a></li>
+					<li class="four"><a href="#">Portfolio</a></li>
+					<li class="five"><a href="#">Nonprofits</a></li>
+					<li class="six"><a href="#">Contact Me</a></li>
+				</ul>
+				<hr></hr>
+			</section>
+			<div class="row">
+			<div class="col-md-12 col-sm-12">
+			<section>
+				<h4>Find Me Online</h4>
+				<a href="https://www.linkedin.com/pub/tammy-knox/90/640/93b"><img src="assets/images/linkedin.png"></a>
+				<a href="https://twitter.com/TammyElizabethK"><img src="assets/images/twitter.png"></a>
+				<a href="https://github.com/TammyKnox"><img src="assets/images/github.png"></a>
+				<a href="mailto:tammyknox@elizaknox.me"><img src="assets/images/email.png"></a>
+			</section>
+			</div>
+		</div>
+		</section>
+		<section class="copyright">
+			Copyright &copy; 2015 Tammy Knox. All rights reserved.
+		</section>
+	</footer>
 </body>
 </html>
