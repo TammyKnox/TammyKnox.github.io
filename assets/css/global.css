@@ -73,7 +73,7 @@ img{
 	color:#FFF;
 }
 #home-body a, a:link, a:visited{
-	color:#FFF;	
+	color:#FFF;
 }
 #home-body a:hover, a:active{
 	color:#38FCFF;
@@ -94,7 +94,7 @@ img{
 	padding-top:15px;
 	text-transform:uppercase;
 	color:#FFF;
-	
+
 }
 a.nav-brand.uppercase{
 	color:#FFF;
@@ -138,7 +138,7 @@ a:hover.nav-brand.uppercase{
 #home-content > .row{
 	margin-top: 10em;
 	height:50%;
-	padding:0px;
+	padding:0px 2em 0px 2em;
 }
 
 #home-content > .row > p, ul{
@@ -151,6 +151,9 @@ a:hover.nav-brand.uppercase{
  #home-content p{
 	color:#FFF;
 }
+#home-content .welcome{
+	padding-top:10em;
+}
 #inner-body > h2, p{
 	color:#4E4E4E;
 }
@@ -162,8 +165,8 @@ button{
 	margin-top: 1em;
 	padding-bottom:.5em;
 	width:4em;
-	
-	
+
+
 }
 button:hover{background-color: rgba(116, 27, 85, 0.5);}
 
