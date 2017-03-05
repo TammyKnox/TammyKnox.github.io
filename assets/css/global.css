@@ -220,3 +220,7 @@ footer > a, a:link, a:visited { color: #741b55; }
 footer > a:hover, a:active { color: #38FCFF; }
 /*-------------End of Footer-------------------*/
 /*-------------Custom/Miscellaneous------------*/
+a.project-name{
+	font-family:'Oswald',sans-serif;
+	font-size:22px;
+}
