@@ -194,9 +194,10 @@ button:hover{
 	width:70%;
 }
 .teal-bg{background-color:#38FCFF;}
+.uppercase > h1{
+	text-transform:uppercase;
+}
 /*-------------End of Body---------------------*/
-/*-------------Forms---------------------------*/
-/*-------------End of Forms--------------------*/
 /*-------------Footer--------------------------*/
 .inside-footer{
 	color: #741b55;
