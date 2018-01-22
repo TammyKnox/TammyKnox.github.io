@@ -46,16 +46,16 @@ url: "" # the base hostname & protocol for your site
 
 # Social settings
 facebook_url:
-github_url:
+github_url: https://github.com/tammyknox
 googleplus_url:
-instagram_url:
-linkedin_url:
+instagram_url: https://instagram.com/tekdsgns
+linkedin_url: https://linkedin.com/in/tammy-elizabeth-knox
 pinterest_url:
 slack_url:
-twitter_url:
+twitter_url: https://twitter.com/TammyElizabethK
 
 # Google Analytics Tracking ID goes here:
-google_analytics:
+google_analytics: UA-69897202-1
 
 # The following settings are NECESSARY for the Prologue theme to run:
 collections: [sections]
