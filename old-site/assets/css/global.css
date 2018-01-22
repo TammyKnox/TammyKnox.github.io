@@ -1,0 +1,226 @@
+/******Table of Contents*********
+
+---------Glossary-----------------
+---------Global Elements----------
+---------Header-------------------
+---------Navigation---------------
+---------Body---------------------
+---------Forms--------------------
+---------Footer-------------------
+
+***********End of Table of Contents*************/
+
+
+/*------------Glossary-------------
+teal: #38FCFF
+Purple: #741b55
+Lavendar:
+White = #FFF
+Black = #000
+Font = font-family: Arial, Verdana, Helvetica, sans-serif;
+
+-------------End of Glossary---------*/
+/*# sourceMappingURL=global.css.map */
+
+/*--------------Global Elements---------*/
+
+.home-body{
+	background-image:url(../images/desk2-bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+p, ul, li, a{
+	font-family: 'Josefin Sans', sans-serif;
+}
+ul li{
+	list-style-type: none;
+	font-size:16px;
+}
+h1{
+	font-size:36px;
+}
+h2{
+	font-size: 22px;
+}
+h3{
+	font-size:18px;
+}
+p{
+	font-size:18px;
+	font-weight:400;
+}
+a{
+	color:#FFF;
+	text-decoration:none !important;
+	font-size:18px;
+}
+a:link { color: #FFF; }
+a:visited { color: #FFF; }
+a:hover { color: #38FCFF; }
+a:active { color: #38FCFF; }
+#Qwigley{
+	font-size:100px !important;
+	font-family:'Qwigley', cursive;
+}
+img{
+	margin:15px;
+}
+
+/*-------------End of Global Elements---------*/
+#home-body{
+	color:#FFF;
+}
+#home-body a, a:link, a:visited{
+	color:#FFF;
+}
+#home-body a:hover, a:active{
+	color:#38FCFF;
+}
+
+
+/*-------------Header/Navigation--------------*/
+
+
+#home-body> nav{
+	background-color: #741b55;
+	border:none;
+	background: rgba(116, 27, 85, 0.5)
+}
+
+#brand img{
+	width:3em;
+
+}
+a.nav-brand.uppercase{
+	color:#FFF;
+}
+a:hover.nav-brand.uppercase{
+	color:#38FCFF;
+}
+
+#home-body > .navbar-default .navbar-nav>li>a:hover, a:active{
+	color:#38FCFF;
+}
+
+/*------Inner Pages Navigation---*/
+#inner-body nav{
+	background-color:#924092;
+	border:none;
+	background: rgba(146, 64, 146, 0.5)
+}
+
+#inner-body > .navbar-default .navbar-nav > li > a, a:link, a:visited{
+	color:#FFF;
+}
+
+#inner-body > .navbar-default .navbar-nav>li>a:hover, a:active{
+	color:#38FCFF;
+}
+
+
+/*-------------End of Header/Navigation--------*/
+
+
+
+/*-------------Body----------------------------*/
+#home-content{
+	color:#FFF;
+	height:100%;
+}
+#home-content > h2, p{
+	color:#fff;
+}
+#home-content > .row{
+	margin-top: 10em;
+	height:50%;
+	padding:0px 2em 0 2em;
+}
+
+#home-content > .row > p, ul{
+	font-size:30px;
+}
+
+#home-content > button > .home-button, .home-button:link, .home-button:hover, .home-button:active{
+	color:#FFF !important;
+}
+ #home-content p{
+	color:#FFF;
+}
+#home-content .welcome{
+	padding-top:10em;
+}
+#inner-body > h2, p{
+	color:#4E4E4E;
+}
+button{
+	background-color:rgba(255, 255, 255, 0.02);
+	border: 1px solid rgba(255, 255, 255, 1.0);
+	font-size:1em;
+	margin-top: 1em;
+	padding:.5em;
+
+
+}
+button:hover{
+	border: 1px solid rgba(56, 252, 255, 1.0);
+}
+
+#inside-container{
+	color:#4E4E4E;
+	font-family: 'Josefin Sans', sans-serif;
+	padding:100px 0 0 0;
+}
+
+.page-title{
+	font-family: 'Oswald', sans-serif;
+	color: #924092;
+}
+
+#inside-container h2{font-family:'Oswald', sans-serif;margin-bottom:15px;}
+.inner-content h2, p{color:#4E4E4E;}
+
+#content-section{
+	color:#000;
+	height:35em;
+	margin: 0 auto;
+	padding:20px;
+	width:70%;
+}
+.teal-bg{background-color:#38FCFF;}
+.uppercase > h1{
+	text-transform:uppercase;
+}
+/*-------------End of Body---------------------*/
+/*-------------Footer--------------------------*/
+.inside-footer{
+	color: #741b55;
+	font-size:24px;
+	margin:1em auto 0 auto;
+	padding: 5px 10px 0px 0px;
+}
+footer{
+	color:#FFF;
+	font-size:24px;
+	margin: 1em auto 0 auto;
+	padding: 5px 10px 0px 0px;
+
+}
+.inside-social a:link{
+	color: #741b55;
+}
+.inside-social a:hover, a:active{ color: #38FCFF; }
+footer > a, a:link, a:visited { color: #741b55; }
+footer > a:hover, a:active { color: #38FCFF; }
+/*-------------End of Footer-------------------*/
+/*-------------Custom/Miscellaneous------------*/
+a.project-name{
+	font-family:'Oswald',sans-serif;
+	font-size:22px;
+}
