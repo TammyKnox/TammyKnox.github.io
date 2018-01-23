@@ -1,5 +1,5 @@
 ---
-title: The Discovery and Phase of a New Project
+title: The Discovery Phase of a New Project
 author: Tammy
 layout: post
 ---
